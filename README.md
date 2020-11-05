@@ -16,4 +16,8 @@ This project is a four-page webside to bulding customizing and upgrading compute
 
 ## Technology Used
 
+<<<<<<< HEAD
 ## Testing
+=======
+## Testing
+>>>>>>> cd346883429791b62a6fa2eb607437afbd459a44
