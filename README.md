@@ -29,13 +29,13 @@ This project is a four-page webside to bulding customizing and upgrading compute
 ![home wireframe](https://c86735f1-c044-4081-b870-fcb94f6ff86b.ws-eu01.gitpod.io/mini-browser/workspace/MS1/readme%20file/wireframe/Home%20resized.png)
 
 + About
-![about wireframe](https://c86735f1-c044-4081-b870-fcb94f6ff86b.ws-eu01.gitpod.io/mini-browser/workspace/MS1/readme%20file/wireframe/About%20resized.png)
+![about wireframe](https://github.com/PiotrWojniak/MS1/blob/master/readme%20file/wireframe/About.png)
 
 + Offers
 ![offers wireframe](https://c86735f1-c044-4081-b870-fcb94f6ff86b.ws-eu01.gitpod.io/mini-browser/workspace/MS1/readme%20file/wireframe/Offers%20resized.png)
 
 + Contact
-![contact wireframe](https://c86735f1-c044-4081-b870-fcb94f6ff86b.ws-eu01.gitpod.io/mini-browser/workspace/MS1/readme%20file/wireframe/Contact%20resized.png)
+![contact wireframe](https://github.com/PiotrWojniak/MS1/blob/master/readme%20file/wireframe/Contact.png)
 
 # Features
 
