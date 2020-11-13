@@ -1,2 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:ital,wght@1,300;1,400;1,500;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap')
+.body {
+   font-family: 'roboto-ital' sans-serif; 
+}
 
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.side-wide-alert {
+    color: rgb(255, 238, 1);
+    background-color: rgb(129, 36, 250);
+    border-color: rgb(129, 36, 250);
+    padding: 10px 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.container-collout {
+    height: 100vh;
+
+    background: url("../images/BackgroundHome1.jpg") no-repeat fixed top;
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.navalert-container{
+    padding: 0;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+
+.container-fluid {
+    width: 100%;
+}
+
+
+
+/*jumbptron*/
+
+/* Navbar */
+
+/* Collout */
+
+/* Benefits */
+
+/* Feedback */
+
+/* Footer */
