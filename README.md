@@ -52,6 +52,7 @@ This project is a four-page webside to bulding customizing and upgrading compute
 1. [Bootstrap](https://getbootstrap.com/) - for design and customize responsive mobile-first sites.
 1. [Fontawesome](https://fontawesome.com/start) - for font style.
 1. [Balsamiq](https://balsamiq.com/wireframes/) - to create wireframes.
+1. [GIMP](https://www.gimp.org/) - for rendering backgroung images
 
 # Testing
 
@@ -60,3 +61,5 @@ This project is a four-page webside to bulding customizing and upgrading compute
 # Deployment
 
 # Credits
+
+1. [Benchmark.pl](https://www.benchmark.pl/) - Thanks to the Editors of Benchmark.pl for consenting to the use of photos from articles in accordance with the copyright by providing the source. 
