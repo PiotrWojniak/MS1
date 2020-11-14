@@ -1,5 +1,7 @@
 .body {
    font-family: 'roboto-ital' sans-serif; 
+   height: 100%;
+   width: 100%;
 }
 
 .alert-container .col-12{
@@ -16,10 +18,10 @@
     border-radius: 0;
 }
 
-.container-collout {
+.collout-container {
     height: 100vh;
 
-    background: url("../images/BackgroundHome1.jpg") no-repeat fixed top;
+    background: url("../images/BackgroundHome1.jpg") no-repeat center center fixed;
     background-blend-mode: overlay;
     background-size: cover;
     
@@ -48,16 +50,44 @@
     width: 100%;
 }
 
-
+.page-header {
+    text-align: center;
+}
 
 /*jumbptron*/
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron p{
+    color: rgb(5, 253, 207);
+}
 
+.jumbotron-header{
+    color: rgb(255, 177, 60);
+    text-align: bold;
+}
 /* Navbar */
+
+/* Buttons*/
+
+/*Divider */
+
+.block-divider{
+    width: 150px;
+    height: 5px;
+    background-color: #8c00ff;
+    border: 1px;
+}
 
 /* Collout */
 
 /* Benefits */
+.benefits-container{}
 
 /* Feedback */
+
+.blockquote p{
+    font-family: Handlee;
+}
 
 /* Footer */
