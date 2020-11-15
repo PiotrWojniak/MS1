@@ -7,6 +7,18 @@
 .alert-container .col-12{
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
+}
+
+.alert a{
+    margin-left: 15px;
+    color: #2ee0fd;
+}
+
+.alert a:hover,
+.alert a:active,
+.alert a:focus {
+    color: #10ff00;
 }
 
 .side-wide-alert {
@@ -68,8 +80,30 @@
 }
 /* Navbar */
 
+.navbar {
+    background-color: #6f89a2;
+}
+
 /* Buttons*/
 
+.btn--cta {
+    border-radius: 100px;
+    color: blue;
+    font-weight: 500;
+}
+
+.btn--yellow {
+    background-color: #e8d03d;
+    border-color: y#e8d03d;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus {
+    background-color: yellow;
+    border-color: yellow;
+    color: #ca1717;
+}
 /*Divider */
 
 .block-divider{
