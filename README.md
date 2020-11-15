@@ -60,9 +60,9 @@ This project is a four-page webside to bulding customizing and upgrading compute
 
 # Bugs and Problems
 
-1. missing comments when commiting changes
-+ create css file - opaque-overlay, jumbotron, collout-container 
-+ fix img display for wireframe in README.md
+1. Missing comments when commiting changes
++ Create css file - opaque-overlay, jumbotron, collout-container 
++ Fix img display for wireframe in README.md
 
 # Deployment
 
