@@ -21,6 +21,10 @@
     color: #10ff00;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(232, 29, 29);
+}
 .side-wide-alert {
     color: rgb(255, 238, 1);
     background-color: rgb(129, 36, 250);
@@ -29,6 +33,8 @@
     margin-bottom: 0;
     border-radius: 0;
 }
+
+/*container*/
 
 .collout-container {
     height: 100vh;
@@ -43,9 +49,14 @@
     justify-content: center;
 
     position: relative;
+    text-align: center;
 }
+
 .navalert-container{
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
 }
 
 .opaque-overlay {
@@ -57,18 +68,23 @@
     background-color: rgba(0,0,0,0.5)
 }
 
-
-.container-fluid {
-    width: 100%;
+.container-wrapper--yellow{
+    background-color: #e8d03d;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .page-header {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*jumbptron*/
 .jumbotron{
     background-color: transparent;
+    
 }
 .jumbotron p{
     color: rgb(5, 253, 207);
@@ -76,12 +92,25 @@
 
 .jumbotron-header{
     color: rgb(255, 177, 60);
-    text-align: bold;
 }
-/* Navbar */
+
+/* Navigation */
 
 .navbar {
     background-color: #6f89a2;
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar .navbar-nav a{
+    font-weight: 400;
+    font-family: 'Roboto:ital' sans-serif;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(232, 29, 29);
 }
 
 /* Buttons*/
@@ -92,14 +121,20 @@
     font-weight: 500;
 }
 
+.btn {
+    font-family: 'Roboto:ital' sans-serif;
+    text-align: center;
+}
+
 .btn--yellow {
     background-color: #e8d03d;
-    border-color: y#e8d03d;
+    border-color: #e8d03d;
 }
 
 .btn--yellow:hover,
 .btn--yellow:active,
-.btn--yellow:focus {
+.btn--yellow:focus,
+.btn--red:active:focus {
     background-color: yellow;
     border-color: yellow;
     color: #ca1717;
@@ -115,13 +150,38 @@
 
 /* Collout */
 
+.container-fluid {
+    width: 100%;
+}
+
 /* Benefits */
-.benefits-container{}
 
 /* Feedback */
+.blockquote {
+    text-align: right
+}
+
+.media {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blockquote-footer{
+    color: #71b4ef;
+}
 
 .blockquote p{
-    font-family: Handlee;
+    font-family: handlee;
+    text-align: right;
 }
 
 /* Footer */
+.footer-container{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-wrapper--footer{
+    background-color: #6f89a2;
+}
