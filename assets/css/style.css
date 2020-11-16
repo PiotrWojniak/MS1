@@ -42,9 +42,10 @@
     height: 100vh;
 
     background: url("../images/BackgroundHome1.jpg") no-repeat center center fixed;
+
     background-blend-mode: overlay;
     background-size: cover;
-    
+   
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -53,6 +54,41 @@
     position: relative;
     text-align: center;
 }
+
+.collout-container-about {
+    height: 100vh;
+
+    background: url("../images/about1024.jpg") no-repeat center center fixed;
+
+    background-blend-mode: overlay;
+    background-size: cover;
+   
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    text-align: center;
+}
+
+.collout-container-offers {
+    height: 100vh;
+
+    background: url("../images/BackgroundOffers1.jpg") no-repeat center center fixed;
+
+    background-blend-mode: overlay;
+    background-size: cover;
+   
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    text-align: center;
+}
+
 
 .navalert-container{
     padding: 0px;
