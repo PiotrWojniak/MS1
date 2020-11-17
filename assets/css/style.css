@@ -20,6 +20,15 @@
     background-color: #54b3f7;  
 }
 
+.modal-header,
+.modal-body,
+.modal-footer,
+.form-group {
+    padding: 0.5rem;
+    margin-bottom: 0;
+    border: 0;
+}
+
 .alert-container .col-12{
     padding-left: 0;
     padding-right: 0;
