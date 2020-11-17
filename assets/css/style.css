@@ -254,6 +254,11 @@
 .container-wrapper--footer{
     background-color: #266286;
 }
+
+.fab{
+    color:#d25a5a;
+}
+
 /* To style about.html */
 
 /*service*/
