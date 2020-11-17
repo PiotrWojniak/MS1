@@ -159,7 +159,7 @@
 /* Navigation */
 
 .navbar {
-    background-color: #6f89a2;
+    background-color: #266286;
 }
 .navbar-toggler{
     border: 0;
@@ -252,7 +252,7 @@
 }
 
 .container-wrapper--footer{
-    background-color: #6f89a2;
+    background-color: #266286;
 }
 /* To style about.html */
 
@@ -282,4 +282,8 @@
 .service .jumbotron-header{
     color: white;
     font-weight: bold;
+}
+
+.fab{
+    color:#d25a5a;
 }
