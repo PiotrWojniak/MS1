@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
 
+@media (min-width: 1024px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
 .body {
    font-family: 'roboto-ital' sans-serif; 
    height: 100%;
@@ -56,7 +64,7 @@
 }
 
 .collout-container-about {
-    height: 100vh;
+    height: 80vh;
 
     background: url("../images/about1024.jpg") no-repeat center center fixed;
 
@@ -108,9 +116,10 @@
 
 .container-wrapper--yellow{
     background-color: #e8d03d;
-    margin-bottom: 15px;
+    padding-bottom: 20px;
     text-align: center;
 }
+/*headers*/
 
 .page-header {
     text-align: center;
@@ -130,6 +139,11 @@
 
 .jumbotron-header{
     color: rgb(255, 177, 60);
+}
+
+.service .jumbotron-header{
+    color: white;
+    font-weight: bold;
 }
 
 /* Navigation */
@@ -186,6 +200,13 @@
     border: 1px;
 }
 
+.block-divider--white{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    border: 1px;
+}
+
 /* Collout */
 
 .container-fluid {
@@ -222,4 +243,26 @@
 
 .container-wrapper--footer{
     background-color: #6f89a2;
+}
+/* To style about.html */
+
+/*service*/
+
+.card{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.card-header{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    
+}
+.hidden{
+    text-transform: uppercase;
+    font-family: 'Lato:ital';
+    font-size: 25px;
+    font-weight: bold;
 }
