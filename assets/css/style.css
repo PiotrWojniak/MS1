@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
 
+
+/*code used from https://codepen.io/glebkema/pen/xryaKK to collaps accordion on small screen - edited to use collaps at medium screen also*/
 @media (min-width: 1024px) {
   .collapse.dont-collapse-sm {
     display: block;
@@ -12,6 +14,10 @@
    font-family: 'roboto-ital' sans-serif; 
    height: 100%;
    width: 100%;
+}
+
+.modal-content{
+    background-color: #54b3f7;  
 }
 
 .alert-container .col-12{
@@ -141,11 +147,6 @@
     color: rgb(255, 177, 60);
 }
 
-.service .jumbotron-header{
-    color: white;
-    font-weight: bold;
-}
-
 /* Navigation */
 
 .navbar {
@@ -264,5 +265,12 @@
     text-transform: uppercase;
     font-family: 'Lato:ital';
     font-size: 25px;
+    font-weight: bold;
+}
+
+/*jumbotron */
+
+.service .jumbotron-header{
+    color: white;
     font-weight: bold;
 }
