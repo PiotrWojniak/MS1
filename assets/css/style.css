@@ -143,6 +143,11 @@
     margin-bottom: 25px;
 }
 
+.offers-header p{
+    text-transform: none;
+    color: rgb(185, 1, 1);
+}
+
 /*jumbptron*/
 .jumbotron{
     background-color: transparent;
@@ -154,8 +159,12 @@
 
 .jumbotron-header{
     color: rgb(255, 177, 60);
+    margin-top: 3em;
 }
 
+.jumbotron .jumbotron-offers{
+    margin-top: 30px;
+}
 /* Navigation */
 
 .navbar {
@@ -214,6 +223,12 @@
     width: 150px;
     height: 5px;
     background-color: white;
+    border: 1px;
+}
+.block-divider--red{
+     width: 250px;
+    height: 5px;
+    background-color: rgb(190, 5, 5);
     border: 1px;
 }
 
@@ -291,4 +306,15 @@
 
 .fab{
     color:#d25a5a;
+}
+
+/* To style offers.html*/
+
+.table-dark th{
+    text-transform: uppercase;
+}
+@media (max-width: 800px) {
+  th:nth-child(1) {
+    display:none;
+  }
 }
