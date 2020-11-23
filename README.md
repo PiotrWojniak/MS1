@@ -57,6 +57,22 @@ This project is a four-page webside to bulding customizing and upgrading compute
 1. [GIMP](https://www.gimp.org/) - for rendering backgroung images
 
 # Testing
+1. W3C Markup Validation Service<a href="https://validator.w3.org/">
+2. Lighthouse 6.4.0
+
+## Error
+
+1. Index.HTML
++ Img element missing alt atribute in feedback section.
++ Attribute novalidate not allowed on element div in modal class.
++ Image in to big resolution
+
+## Error Fix
+
+1. Index.HTML
++ Add alt artibut in to the feedback img.
++ Remove novalidate atribute from div at modal class.
++ Replaced img whith lower resolution to improve loading the webpage.
 
 # Bugs and Problems
 
