@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
 
 /*code used from https://codepen.io/glebkema/pen/xryaKK to collaps accordion on small screen - edited to use collaps at medium screen also*/
 @media (min-width: 1024px) {
@@ -11,7 +10,7 @@
 }
 
 .body {
-   font-family: 'roboto-ital' sans-serif; 
+   font-family: 'roboto-ital'; 
    height: 100%;
    width: 100%;
 }
@@ -26,6 +25,7 @@
     margin-left: 15px;
     color: #2ee0fd;
 }
+
 /* To hover link in alert container*/
 .alert a:hover,
 .alert a:active,
@@ -129,6 +129,7 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 /* to highlight free item whith order*/
 .offers-header p{
     text-transform: none;
@@ -162,7 +163,7 @@
 }
 .navbar .navbar-nav a{
     font-weight: 400;
-    font-family: 'Roboto:ital' sans-serif;
+    font-family: 'Roboto:ital';
     font-size: 20px;
 }
 
@@ -180,7 +181,7 @@
 }
 
 .btn {
-    font-family: 'Roboto:ital' sans-serif;
+    font-family: 'Roboto:ital';
     text-align: center;
 }
 
@@ -282,6 +283,11 @@ input[type=number]::-webkit-inner-spin-button {
 
 .container-wrapper--footer{
     background-color: #5989a7;;
+}
+
+.media img{
+    height: 100px;
+    width: 100px
 }
 
 /* To style about.html */
