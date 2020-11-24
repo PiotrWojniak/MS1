@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Handlee&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
 
-/*code used from https://codepen.io/glebkema/pen/xryaKK to collaps accordion on small screen - edited to use collaps at medium screen also*/
+/*code used from https://codepen.io/glebkema/pen/xryaKK to collaps accordion on small screen - edited to use collaps at medium screen also
 @media (min-width: 1024px) {
   .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
     visibility: visible;
   }
+}*/
+@media (min-width: 1200px){
+.container {
+    max-width: 1440px
+ }
 }
-
-.body {
-   font-family: 'roboto-ital'; 
-   height: 100%;
-   width: 100%;
+body {
+   font-family: 'Lato:ital', sans-serif; 
 }
 
 .alert-container .col-12{
@@ -30,8 +32,16 @@
 .alert a:hover,
 .alert a:active,
 .alert a:focus {
-    color: #10ff00;
+    color: rgb(208, 177, 27);
 }
+
+/*about pointer*/
+.card-header i:hover,
+.card-header i:active,
+.card-header i:focus {
+    color: #df0505;
+}
+
 
 .navbar-dark .navbar-nav .nav-link:focus, 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -41,11 +51,18 @@
     color: rgb(255, 238, 1);
     background-color: rgb(129, 36, 250);
     border-color: rgb(129, 36, 250);
-    padding: 10px 15px;
+    padding: 5px 15px;
     margin-bottom: 0;
     border-radius: 0;
 }
 
+.lead{
+    font-weight: 400;
+    font-family: 'Roboto:ital', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+}
 /*container*/
 
 .collout-container {
@@ -83,7 +100,7 @@
 }
 
 .collout-container-offers {
-    height: 100vh;
+    height: 80vh;
 
     background: url("../images/BackgroundOffers1.jpg") no-repeat center center fixed;
 
@@ -126,14 +143,18 @@
 .page-header {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.page-header h2{
+    font-family: 'Roboto:ital', sans-serif;
 }
 
 /* to highlight free item whith order*/
 .offers-header p{
     text-transform: none;
     color: rgb(185, 1, 1);
+    font-size: 12px;
 }
 
 /*jumbptron*/
@@ -141,13 +162,18 @@
     background-color: transparent;
     
 }
+
 .jumbotron p{
-    color: rgb(5, 253, 207);
+    color: rgb(24, 255, 191);
 }
+
+
 
 .jumbotron-header{
     color: rgb(255, 177, 60);
     margin-top: 3em;
+    font-family: 'Roboto:ital', sans-serif;
+    text-transform: uppercase;
 }
 
 .jumbotron .jumbotron-offers{
@@ -156,15 +182,20 @@
 /* Navigation */
 
 .navbar {
-    background-color: #5989a7;;
+    background-color: #026eb1;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
 }
-.navbar-toggler{
+
+.navbar.navbar-toggler{
     border: 0;
 }
+
 .navbar .navbar-nav a{
-    font-weight: 400;
-    font-family: 'Roboto:ital';
-    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto:ital', sans-serif;
+    font-size: 16px;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, 
@@ -172,32 +203,45 @@
     color: rgb(232, 29, 29);
 }
 
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+
 /* Buttons*/
 
 .btn--cta {
-    border-radius: 100px;
-    color: blue;
-    font-weight: 500;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
 }
 
 .btn {
-    font-family: 'Roboto:ital';
+    font-family: 'Roboto:ital', sans-serif;
     text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
-.btn--yellow {
-    background-color: #e8d03d;
-    border-color: #e8d03d;
+
+.btn--red {
+    color:white;
+    background-color: #f05f40;
+    border-color: #f05f40; 
+    width: 75px;
+    height: 30px;   
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
 .btn--red:active:focus {
-    background-color: yellow;
-    border-color: yellow;
-    color: #ca1717;
+    background-color: #881b04;
+    border-color: #881b04;
+    color: white;
 }
+
 /*Divider */
 
 .block-divider{
@@ -257,7 +301,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 /* Feedback */
 .blockquote {
-    text-align: right
+    text-align: left;
 }
 
 .media {
@@ -266,12 +310,15 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .blockquote-footer{
-    color: #71b4ef;
+    color: #026eb1;
+    font-family: 'Roboto+Mono:ital', sans-serif;
+    font-size:14px;
 }
 
 .blockquote p{
-    font-family: handlee;
-    text-align: right;
+    font-family:'Handlee', sans-serif;
+    text-align: left;
+    font-size: 16px;
 }
 
 /* Footer */
@@ -282,7 +329,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .container-wrapper--footer{
-    background-color: #5989a7;;
+    background-color: #026eb1;
 }
 
 .media img{
@@ -304,8 +351,15 @@ input[type=number]::-webkit-inner-spin-button {
     background-color: transparent;
     border: none;
     font-size: 20px;
-    
+    text-transform: uppercase;
 }
+
+.card-title{
+    margin-bottom: .75rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 .hidden{
     text-transform: uppercase;
     font-family: 'Lato:ital';
@@ -315,13 +369,9 @@ input[type=number]::-webkit-inner-spin-button {
 
 /*jumbotron */
 
-.service .jumbotron-header{
-    color: white;
-    font-weight: bold;
-}
 
 .social-icon i{
-    color:#d25a5a;
+    color:#d6da04;
 }
 
 /* To style offers.html*/
@@ -329,16 +379,23 @@ input[type=number]::-webkit-inner-spin-button {
 .table-dark th{
     text-transform: uppercase;
 }
-/* @media used for hide first row of column on small devices*/
-@media (max-width: 800px) {
-  th:nth-child(1) {
-    display:none;
-  }
+
+.table-dark td{
+    vertical-align: middle;
+}
+
+
+.offers-header{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .lates-offers .card-size{
-    box-shadow: 0 0 5px #6f6d6d;
-    margin: 5px;
+    box-shadow: 0 0 15px #6f6d6d;
+    margin-bottom: 20px;
     padding: 5px;
     height: 730px;
     background-color: #dce3f5;
@@ -352,14 +409,20 @@ input[type=number]::-webkit-inner-spin-button {
     overflow:auto;
     margin-bottom: 5px;
     height: 391px;
+    text-align: center;
 }
 
 .card-size img{
-    width: auto;
-    height: 240px;
+    width: 100%;
+    height: 200px;
     padding: 0;
     background-color: #fff;
     border: 0;
     border-radius: 0;  
 }
 
+.btn-info {
+    color: #fff;
+    background-color: #de2626;
+    border-color: #de2626;
+    text-transform: capitalize;
