@@ -196,6 +196,7 @@ body {
     font-weight: 300;
     font-family: 'Roboto:ital', sans-serif;
     font-size: 16px;
+    margin-top: 3px;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, 
@@ -221,7 +222,7 @@ body {
     text-align: center;
     font-size: 14px;
     margin: 0;
-    padding: 0;
+    padding: 3px;
 }
 
 
@@ -232,6 +233,13 @@ body {
     width: 75px;
     height: 30px;   
 }
+
+.btn-info {
+    color: #fff;
+    background-color: #de2626;
+    border-color: #de2626;
+    text-transform: capitalize;
+}    
 
 .btn--red:hover,
 .btn--red:active,
@@ -337,6 +345,9 @@ input[type=number]::-webkit-inner-spin-button {
     width: 100px
 }
 
+.footer-box span{
+    color: #e8e8e8;:
+}
 /* To style about.html */
 
 /*service*/
@@ -384,6 +395,11 @@ input[type=number]::-webkit-inner-spin-button {
     vertical-align: middle;
 }
 
+.offers-header h6{
+    color:#de2626;
+    font-size: small;
+    text-transform: none;
+}
 
 .offers-header{
     padding: 15px;
@@ -413,7 +429,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .card-size img{
-    width: 100%;
+    width: auto;
     height: 200px;
     padding: 0;
     background-color: #fff;
@@ -421,8 +437,13 @@ input[type=number]::-webkit-inner-spin-button {
     border-radius: 0;  
 }
 
-.btn-info {
-    color: #fff;
-    background-color: #de2626;
-    border-color: #de2626;
-    text-transform: capitalize;
+/* Hide scrollbar for Chrome, Safari and Opera in offers container*/
+.offers::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.offers {
+    -ms-overflow-style: none; /*for IE, Edge*/
+     scrollbar-width: none; /*Firefox*/
+}
